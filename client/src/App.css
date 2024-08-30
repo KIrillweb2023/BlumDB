@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+  font-family: "Lexend", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+ol, li {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+button, input, textarea {
+  border: none;
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.app{
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+}
+
+.container{
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}

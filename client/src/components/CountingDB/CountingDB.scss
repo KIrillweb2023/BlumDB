@@ -1,0 +1,24 @@
+.home{
+    &__main{
+        &_countingBase{
+            width: 63%;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            margin-top: 10px;
+            height: 65px;
+            &-text{
+                color: #434343;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &-count{
+                font-size: 18px;
+                color: #434343;
+                font-weight: 600;
+            }
+        }
+    }
+}
